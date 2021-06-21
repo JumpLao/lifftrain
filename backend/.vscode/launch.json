@@ -1,0 +1,20 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/bin/www",
+      "env": {
+        "CHANEL_SECRET": "3HwZzch/yAxydg2w7JCekfK753C2B5ASsZXQN2zKDeDpm/GEffDKNIdbJOr3D9GTbb04jjDOmVpyaJYArGI7jF0x01OPI3nCdFdaCHy9e6qDZGmiYV+H6SEviKkYCz+j80bWjj9b2TPfOw19Y/v9fgdB04t89/1O/w1cDnyilFU="
+      }
+    }
+  ]
+}

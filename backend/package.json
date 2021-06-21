@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "serve": "cross-env CHANEL_SECRET=3HwZzch/yAxydg2w7JCekfK753C2B5ASsZXQN2zKDeDpm/GEffDKNIdbJOr3D9GTbb04jjDOmVpyaJYArGI7jF0x01OPI3nCdFdaCHy9e6qDZGmiYV+H6SEviKkYCz+j80bWjj9b2TPfOw19Y/v9fgdB04t89/1O/w1cDnyilFU= yarn start"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
+}
